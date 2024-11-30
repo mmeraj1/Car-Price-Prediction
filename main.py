@@ -49,6 +49,8 @@ def predict():
     else:
         return render_template('index.html')
 
+# what the hell is this
+
 if __name__=="__main__":
     app.run(debug=True)
 
