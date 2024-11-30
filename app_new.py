@@ -48,6 +48,8 @@ def predict():
             return render_template('index.html',prediction_text="You Can Sell The Car at {}".format(output))
     else:
         return render_template('index.html')
+        
+# bad changes
 
 if __name__=="__main__":
     app.run(debug=True)
